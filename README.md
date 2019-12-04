@@ -1,1 +1,1 @@
-# bdd
+[![Build status](https://ci.appveyor.com/api/projects/status/vsnw67guvsg9h3pu?svg=true)](https://ci.appveyor.com/project/rojas93/bdd)
