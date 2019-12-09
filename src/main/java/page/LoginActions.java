@@ -15,7 +15,7 @@ public class LoginActions extends LoginPage{
         passwordInput.sendKeys(password);
         loginButton.click();
         VerificationActions verificationActions = new VerificationActions();
-        verificationActions.smsVirify(code);
+        verificationActions.smsVerify(code);
     }
 
     public void checkLogin(){

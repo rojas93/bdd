@@ -6,6 +6,6 @@ import org.openqa.selenium.By;
 import static com.codeborne.selenide.Selenide.$;
 
 public class VerificationPage {
-    public SelenideElement codeInput = $(By.name("code"));
-    public SelenideElement submitButton = $(By.xpath("//*[@data-test-id='action-verify']"));
+    protected SelenideElement codeInput = $(By.name("code"));
+    protected SelenideElement submitButton = $(By.xpath("//*[@data-test-id='action-verify']"));
 }
